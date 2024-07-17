@@ -1,0 +1,38 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hwb(0 94% 6%); /* fallback color */
+    background-image: url('https://i.pinimg.com/736x/5a/5e/50/5a5e50d0302d5437d98915f7ac810390.jpg'); /* Add your background image URL here */  ""
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #17830b;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #15fa15; /* Change color on hover */
+}

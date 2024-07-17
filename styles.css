@@ -1,0 +1,57 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray fallback color */
+    background-image: url('https://i.pinimg.com/736x/5a/5e/50/5a5e50d0302d5437d98915f7ac810390.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Whitney', Arial, sans-serif; /* Apply Discord-like font */
+    color: #000; /* Black text color */
+}
+
+/* Header styles */
+#home-page header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Section styles */
+#home-page section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Name section styles */
+#home-page #name {
+    text-align: center;
+}
+
+#home-page #name h2 {
+    margin-bottom: 10px;
+}
+
+#home-page #name p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Skills and Expertise section styles */
+#home-page #skills, #home-page #expertise {
+    text-align: center;
+}
+
+#home-page #skills h2, #home-page #expertise h2 {
+    margin-bottom: 10px;
+}
+
+#home-page #skills p, #home-page #expertise p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+

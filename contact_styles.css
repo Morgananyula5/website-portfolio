@@ -1,0 +1,54 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/86/bd/59/86bd59a70bca9768fa6c2ef424a995a1.jpg'); /* Add your full background image URL here */
+    background-size: cover;
+    background-position: center;
+    color: #000; /* Black text color */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact details section styles */
+#contact-page #contact-details {
+    color: #000; /* Black text color */
+    padding: 20px; /* Increase padding for better readability */
+}
+
+#contact-page #contact-details h2 {
+    margin-bottom: 10px;
+}
+
+#contact-page #contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-page #contact-details ul li {
+    margin-bottom: 10px;
+}
+
+#contact-page #contact-details ul li a {
+    color: #000; /* Black text color */
+    text-decoration: none;
+}
+
+#contact-page #contact-details ul li a:hover {
+    text-decoration: underline;
+}
